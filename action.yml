@@ -1,8 +1,8 @@
 ﻿name: 'Update Vcpkg Repository'
-description: 'Clones and creates appropriate changes in a vcpkg repository'
+description: 'Update a vcpkg repository'
 inputs:
   remote-vcpkg-repository:
-    description: 'The remote vcpkg github repository url'
+    description: 'Remote vcpkg github repository url'
     required: true
 runs:
   using: 'docker'
