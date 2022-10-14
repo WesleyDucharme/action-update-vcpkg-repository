@@ -2,9 +2,9 @@
 
 WORKDIR /src
 
-COPY "TestApp/" "TestApp/"
+COPY "ActionUpdateVcpkgRepository/" "ActionUpdateVcpkgRepository/"
 
-WORKDIR /src/TestApp
+WORKDIR /src/ActionUpdateVcpkgRepository
 RUN dotnet restore
 RUN dotnet build --no-restore
 
