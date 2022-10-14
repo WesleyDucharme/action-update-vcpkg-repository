@@ -1,4 +1,4 @@
-﻿name: 'Update Vcpkg Repository'
+name: 'Update Vcpkg Repository'
 description: 'Update a vcpkg repository'
 inputs:
   remote-vcpkg-repository:
