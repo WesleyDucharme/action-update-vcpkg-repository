@@ -8,4 +8,11 @@ WORKDIR /src/ActionUpdateVcpkgRepository
 RUN dotnet restore
 RUN dotnet build --no-restore
 
-ENTRYPOINT ["dotnet", "run", "-c Release", "--no-restore", "--no-build"]
+ENTRYPOINT [
+"dotnet", 
+"run", 
+"--project /src/ActionUpdateVcpkgRepository/ActionUpdateVcpkgRepository.csproj", 
+"-c Release", 
+"--no-restore", 
+"--no-build"
+]
